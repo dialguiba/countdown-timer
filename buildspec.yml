@@ -21,7 +21,7 @@ phases:
       - echo Building...
       - yarn build
 artifacts:
-files:
-  - "**/*"
-discard-paths: no
-base-directory: dist
+  files:
+    - "**/*"
+  discard-paths: no
+  base-directory: dist
