@@ -1,0 +1,7 @@
+.socialIcon {
+  &__icon {
+    &:hover {
+      filter: sepia() saturate(10000%) hue-rotate(30deg);
+    }
+  }
+}
