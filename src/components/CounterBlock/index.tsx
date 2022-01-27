@@ -15,7 +15,6 @@ export const CounterBlock = () => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       duration.current = moment.duration(((duration.current as unknown) as number) - 1000, "milliseconds");
-      console.log(duration.current.days(), duration.current.hours(), duration.current.minutes(), duration.current.seconds());
       setSeconds(duration.current.seconds());
       setMinutes(duration.current.minutes());
       setHours(duration.current.hours());
